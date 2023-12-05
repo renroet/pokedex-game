@@ -36,3 +36,70 @@
     transform: rotate(360deg);
   }
 }
+
+.cardImg {
+  width: 100px;
+  /* border: 1px solid rgba(7, 7, 7, 0.3)  */
+}
+
+.card {
+  width: 200px;
+  border: none;
+  background-color: rgb(200, 196, 196);
+  border-radius: 8px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.game {
+  display: flex;
+  margin-top: 20px;
+
+}
+
+.deck {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 45vw;
+  margin-left: 20px;
+  margin-right: 20px;
+  /* border: 1px solid black */
+  
+}
+
+.deckOne {
+  display:flex;
+  border-right: 1px solid black;
+  
+}
+
+.deckTwo {
+  display: flex;
+  border-left: 1px solid black;
+  justify-content: flex-end;
+}
+
+.winner {
+  display: flex;
+  width: 40vw;
+  font-weight: bolder;
+  font-size: 25px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.exp {
+  display: flex;
+  width: 40vw;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.characterName {
+  color: rgb(206, 8, 216);
+  font-weight: bold;
+}
